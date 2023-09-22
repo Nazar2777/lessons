@@ -44,7 +44,7 @@
 .blok-2 span{
 	color: brown;
 }
-.blok-3 span{
+div.blok-3 span{
 	color: darkgreen;
 }
 .blok-4 span{
@@ -52,4 +52,7 @@
 }
 .button{
 	color: rgb(255, 0, 0);
+}
+[class*="blok"]{
+	color: black;
 }
