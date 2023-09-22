@@ -1,0 +1,55 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.head-title {
+	color: aqua;
+}
+.head-title h1{
+	color: red;
+}
+.menu {
+	color: blue;
+}
+.list {
+	color: rgb(139, 109, 109);
+}
+.item-1 {
+	color: rgb(79, 204, 41);
+}
+.item-2 {
+	color: rgb(238, 255, 4);
+}
+.item-3 {
+	color: rgb(255, 0, 0);
+}
+.item-4 {
+	color: blue;
+}
+.blok-1 span{
+	color: rgb(77, 0, 150);
+}
+.img {
+
+}
+.subtitle {
+	color: rgb(31, 1, 28);
+}
+.text {
+	color: rgb(0, 162, 255);
+}
+.lists {
+		color: rgb(3, 82, 128);
+}
+.blok-2 span{
+	color: brown;
+}
+.blok-3 span{
+	color: darkgreen;
+}
+.blok-4 span{
+	color: firebrick;
+}
+.button{
+	color: rgb(255, 0, 0);
+}
