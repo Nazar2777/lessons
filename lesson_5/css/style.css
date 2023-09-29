@@ -1,0 +1,128 @@
+/*------------------------ШРИФТИ----------------------*/
+@import url("fonts.css");
+/*-----------------------Скидання стилів--------------------------*/
+@import url("reset.css");
+/*-----------------------Основні стилі----------------------------*/
+body{
+	font-family: inter;
+	font-size: 18px;
+}
+/*--Heder--*/
+header h1{
+	white-space: nowrap;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	color: aqua;
+	text-shadow: -5px -5px 10px rgb(0, 0, 0);
+}
+header .text {
+	letter-spacing: 5px;
+	line-height: 30px;
+	word-spacing: 10px;
+	
+}
+.menu {
+	font-size: 20px;
+	color: rgb(167, 113, 218);
+	text-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+.list {}
+
+/*---------blok-1----------*/
+.blok-1 {
+	font-family: poppins;
+	font-size: 16px;
+}
+.blok-1 h2{
+	font-size: 20px;
+	text-align: center;
+	color: rgb(240, 69, 57);
+	font-weight: 700;
+	text-shadow: 3px 3px 10px rgb(32, 117, 47);
+	text-transform: uppercase;
+}
+.blok-1 h2~h2{
+	font-weight: 600;
+	text-shadow: 3px 3px 5px rgb(117, 32, 32);
+	text-transform: none;
+}
+.blok-1 .text {
+	font-weight: 300;
+	text-indent: 5px;
+}
+.blok-1 .text~.text{
+	font-style: oblique;
+}
+.blok-1 .text span{
+	font-weight: 600;
+}
+.blok-1 .text~.text span{
+	font-weight: normal;
+	text-decoration: underline;
+}
+/*-----------blok-2------------*/
+.blok-2 {
+	font-family: roboto;
+}
+.blok-2 h2{
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+
+}
+.blok-2 .text p{
+	font-weight: 400;
+	text-decoration: underline;
+}
+.blok-2 .text span{
+	color: red;
+	text-shadow: 5px 5px 5px rgb(223, 58, 58);
+}
+/*-------Blok-3(по макету)--------*/
+.blok-3 h2{
+	color: #37393F;
+font-size: 30px;
+font-weight: 600;
+line-height: 127%;
+}
+.blok-3 h3{
+	color: #6B77E5;
+font-family: popins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 127%;
+}
+.blok-3 .text p{
+color: #7D7D7D;
+font-size: 18px;
+font-weight: 400;
+line-height: 146.187%;
+}
+/*-------Blok-4(по макету)--------*/
+.blok-4 h2{
+color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 127%;
+}
+.blok-4 .text p{
+color: #7D7D7D;
+font-size: 18px;
+font-weight: 400;
+line-height: 146.187%;
+}
+.list {
+color: #7D7D7D;
+font-size: 18px;
+font-weight: 500;
+line-height: 146.187%; 
+}
+/*---Footer---*/
+footer a{
+	font-size: 30px;
+	font-weight: 700;
+	text-shadow: 0px 10px 20px #000;
+}

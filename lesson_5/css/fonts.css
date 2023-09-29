@@ -1,0 +1,64 @@
+/*---GOOGLE-FONTS---*/
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+/*---ВРУЧНУ---*/
+
+/*---------CABIN----------*/
+@font-face {
+	font-family: "Cabin";
+	src: url("../fonts/cabin/Cabin-Italic.woff2") format("woff2"),url("../fonts/cabin/Cabin-Italic.woff") format("woff");
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cabin";
+	src: url("../fonts/cabin/Cabin-Medium.woff2") format("woff2"),url("../fonts/cabin/Cabin-Medium.woff") format("woff");
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cabin";
+	src: url("../fonts/cabin/Cabin-Regular.woff2") format("woff2"),url("../fonts/cabin/Cabin-Regular.woff") format("woff");
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cabin";
+	src: url("../fonts/cabin/Cabin-SemiBold.woff2") format("woff2"),url("../fonts/cabin/Cabin-SemiBold.woff") format("woff");
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
+
+/*----------------ROBOTO----------------*/
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"),url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/Roboto-Italic.woff2") format("woff2"),url("../fonts/roboto/Roboto-Italic.woff") format("woff");
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"),url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"),url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
