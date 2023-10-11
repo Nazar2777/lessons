@@ -280,51 +280,62 @@ line-height: 1.4;
 }
 /*---------------------------------*/
 .block-5 {
-	max-width: 1030px;
+	max-width: 1230px;
 	padding: 0 15px;
 	margin: 0 auto;
 	margin-top: 100px;
 }
-.block-5 .block-3-d {
-	width: 1000px;
-	box-shadow: 0 10px 50px 10px yellow,10px 5px 100px 10px #40DDB6;
-}
-.block-5 .buttom{
-	margin-top: 100px;
-	width: 400px;
+.block-5 div{
+	width: 300px;
 	height: 100px;
-	box-shadow: 10px 3px 28px 5px #8A33FD,10px 3px 28px 5px#a47dd8 inset;
-	border: 3px solid#ca33ca;
-	border-radius: 10px;
-	font-family: "Inter", sans-serif;
-	font-weight: 500;
-	font-size: 40px;
-	color: #3C4242;
-	text-align: center;
-}
-.block-5 .smile{
-	height: 100px;
-	width: 100px;
-	border: 50px solid #fbff00;
-	border-radius: 50%;
-	box-shadow: 0px -10px 10px 10px #502203;
-}
-.block-5 .eye{
-	width: 40px;
-	height: 10px;
-}
-.block-5 .eye div{
 	display: inline-block;
-	width: 15px;
-	height: 10px;
-	border: 2px solid #ff2600;
-	border-radius: 50%;
-	vertical-align: top;
+	margin: 15px 30px;
 }
-.block-5 .smile .u{
-	margin: 10px 0 0 10px;
-	height: 10px;
-	width: 20px;
-	border: 4px solid #ac059e;
+.button-1 {
+border: 3px solid rgb(138, 138, 138);
+}
+.button-2 {
+	border: 5px dotted #503e3e;
+	border-radius: 20px;
+}
+.button-3 {
+	border: 5px dashed #37393F;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 1px #37393F;
+}
+.button-4 {
+	border-left: 5px solid rgb(255, 0, 0);
+	border-bottom: 3px solid rgb(30, 255, 0);
+	border-top: 7px solid rgb(0, 26, 255);
+	border-radius: 50px;
+}
+.button-5 {
+	outline: 3px solid #000;
+	border: 4px solid rgb(255, 0, 0);
+	border-radius: 30px 70% 0 10px;
+}
+.button-6 {
+	border: 2px solid #000000;
 	border-radius: 50%;
+	box-shadow: 0 0 30px 20px #37393F inset;
+}
+.button-7 {
+	border: 4px solid rgb(255, 251, 0);
+	border-radius: 53% 47% 27% 73% / 71% 26% 74% 29%;
+	box-shadow: 10px 10px 20px 20px #40DDB6;
+}
+.button-8 {
+	border-top: 5px dotted #40DDB6;
+	border-right: 1px solid #000;
+	border-bottom: 1px dashed #000;
+	border-left: 10px dashed #8A33FD;
+	border-radius: 30px;
+	opacity: 0.5;
+}
+.button-9{
+	border-left: 10px solid rgb(255, 0, 0);
+	border-bottom: 13px solid rgb(30, 255, 0);
+	border-top: 7px solid rgb(0, 26, 255);
+	border-radius:0 100% 0 0;
+	visibility: hidden;
 }
