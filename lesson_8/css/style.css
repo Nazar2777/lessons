@@ -372,12 +372,24 @@ letter-spacing: 0.4px;
 /*---------------------------block-5--------------------------------*/
 .block-5 {
 	max-width: 1240px;
-	margin: 0 auto;
-	padding: 0 75px;
+   margin: 0 auto;
 	font-size: 0;
-	padding-top: 183px;
-	padding-bottom: 170px;
-	background: url("../img/block-5/left.png") 0 center / 50% 100% no-repeat,url("../img/block-5/right.png") right center / 50% 100% no-repeat;
+	border-radius: 10px;
+   overflow: hidden;
+}
+.block-5 .block-5-left{
+	display: inline-block;
+	background: url("../img/block-5/left.png") center top/ cover no-repeat;
+	padding: 183px 74px 175px;
+	width: 50%;
+	vertical-align: middle;
+}
+.block-5 .block-5-right{
+display: inline-block;
+background: url("../img/block-5/right.png") center top / cover no-repeat;
+width: 50%;
+vertical-align: middle;
+min-height: 655.9px;
 }
 .block-5 .title {
 color: #FFF;
@@ -387,7 +399,6 @@ font-weight: 700;
 line-height: 1.47;
 letter-spacing: 0.208px;
 margin-bottom: 30px;
-max-width: 466px;
 }
 .block-5 .text {
 color: #FFF;
@@ -397,7 +408,6 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 1px;
 margin-bottom: 50px;
-max-width: 450px;
 }
 .block-5 .button {
 display: inline-block;
@@ -414,6 +424,16 @@ font-size: 18px;
 font-weight: 700;
 line-height: normal;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
