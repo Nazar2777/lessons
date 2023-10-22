@@ -1,0 +1,436 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	background: url("../img/potern.avif");
+}
+/*-----------header------------------*/
+.header{
+	background-color: rgba(235, 227, 150, 0.822);
+	min-width: auto;
+}
+.header .conteiner{
+	max-width: 1250px;
+	padding: 0 15px;
+	margin: 0 auto;
+
+}
+.header .logo {
+	max-width: 100%;
+	vertical-align: baseline;
+}
+.header .list {
+	display: inline-block;
+	margin-left: 250px;
+}
+.header .item {
+	display: inline-block;
+	margin:0 25px ;
+}
+.header .button {
+	font-family: "Inter", sans-serif;
+	color: rgb(70, 70, 70);
+	font-size: 18px;
+	font-weight: 400;
+}
+.header .button-underline {
+	text-decoration: underline;
+}
+.header .big-button {
+	display: inline-block;
+	width: 200px;
+	height: 75px;
+	margin-left: 300px;
+	background-color: rgb(241, 227, 144);
+	border-radius: 20px;
+	border: 2px solid rgb(158, 158, 158);
+
+	font-family: "Cabin", sans-serif;
+	color: rgb(99, 94, 88);
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	padding: 25px 0;
+}
+/*-------------Практика------------*/
+.block-1{
+	background-color: rgba(158, 158, 158, 0.247);
+	padding: 30px 0;
+}
+/*-----------example-1-----------*/
+.block-1 .example-1{
+	max-width: 630px;
+	padding: 15px 15px;
+	margin: 0 auto;
+	background-image: url("../img/green.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	
+	/*background: url("../img/green.jpg") / 100% no-repeat fixed;*/
+	
+	color: white;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 10px  rgb(53, 53, 53);
+}
+/*-----------example-2-----------*/
+.block-1 .example-2{
+	max-width: 930px;
+	min-height:1200px;
+	padding: 0 15px;
+	margin: 30px auto;
+	background:  
+	url("../img/sea.jpg") center bottom / 100% no-repeat,
+	radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,237,118,1) 14%, rgba(208,232,143,0) 30%, rgba(0,212,255,0) 100%) center / 800px  no-repeat fixed,
+	url("../img/sky.jpg") center top / 100% no-repeat;
+	border-radius: 20px;
+}
+/*------------------------------------block-2------------------------------------------*/
+.block-2 {
+	max-width: 1130px;
+	padding: 167px 15px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	background-color: #fff;
+}
+
+.block-2 .conteiner{
+	max-width: 683px;
+	padding-left: 70px;
+}
+.block-2 .subtitle-box {
+padding-left: 18px;
+
+color: #37393F;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+
+background: url("../img/block-2/Box.svg") left center / 12px no-repeat;
+margin-bottom: 16px;
+}
+.block-2 .title {
+	max-width: 413px;
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 20px;
+}
+.block-2 .text{
+color: #7D7D7D;
+font-family: "Inter", sans-serif0 3px no-repeat;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.46;
+margin-bottom: 20px;
+}
+.block-2 .text p {
+	margin-bottom: 15px;
+}
+.block-2 .text p + p{
+	margin-bottom: 0px;
+}
+.block-2 .list {
+	margin-bottom: 43px;
+}
+.block-2 .item {
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+line-height: 1.65;
+margin-bottom: 23px;
+background: url("../img/block-2/mark.svg") 0 3px no-repeat;
+padding-left: 35px;
+
+min-height: 30px;
+}
+.block-2 .item + .item{
+	margin-bottom: 0;
+}
+.block-2 .achievement {
+	margin-bottom: 37px;
+	font-size: 0;
+}
+.block-2 .element-1,
+.block-2 .element-2{
+	max-width: 295px;
+	max-height: 140px;
+	padding: 31px 32px;
+	border: 1px solid #E3E3E3;
+	display: inline-block;
+
+}
+.block-2 .element-1{
+	margin-right: 16px;
+}
+.block-2 .experience {
+	background: url("../img/block-2/icon-1.svg") 0 0 / 40px  no-repeat;
+	padding-left: 60px;
+	min-height: 40px;
+}
+.block-2 .winner {
+	background: url("../img/block-2/icon-2.svg") 0 0 / 40px  no-repeat;
+	padding-left: 60px;
+	min-height: 40px;
+}
+.block-2 .achievement .subtitle{
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 3px;
+}
+.block-2 .achievement .text{
+color: #7D7D7D;
+font-family: "Inter", sans-serif;
+font-size: 16px;
+line-height: 1.35;
+}
+
+.block-2 .button{
+	display: inline-block;
+	height: 65px;
+	width: 185px;
+	text-align: center;
+	padding: 21px 0;
+	background: #6B77E5;
+
+color: #FFF;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+/*---------------------------block-3--------------------------------*/
+.block-3 {
+	max-width: 1230px;
+	padding: 150px 15px;
+	margin: 0 auto;
+
+	background: #FFF;
+	text-align: center;
+}
+.block-3 .texts {
+	max-width: 850px;
+	margin: 0 auto;
+	margin-bottom: 47px;
+}
+.block-3 .texts .subtitle {
+	display: inline-block;
+	padding-left: 18px;
+
+	background: url("../img/block-3/square.png") 0 center / 12px no-repeat;
+
+color: #37393F;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+
+margin-bottom: 14px;
+}
+.block-3 .texts .title {
+color: #37393F;
+text-align: center;
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.21;
+
+margin-bottom: 14px;
+}
+.block-3 .texts .text {
+color: #7D7D7D;
+font-family: Inter;
+font-size: 18px;
+line-height: 1.46; 
+}
+.block-3 .objects {
+	min-width: 100%;
+/*-----------------Для відступів між блоками--------------*/
+font-size: 120px;
+/*--------------*/
+}
+.block-3 .object {
+	display: inline-block;
+	min-width: 380px;
+
+	margin: 0 0px 65px 0;
+}
+.block-3 .object .img{
+	min-width: 100%;
+	min-height: 500px;
+	margin-bottom: 24px;
+}
+.block-3 .object .image-1 {
+	background: url("../img/block-3/img-1.png") 0 0/ 100%  no-repeat;
+}
+.block-3 .object .image-2 {
+	background: url("../img/block-3/img-2.png") 0 0/ 100%  no-repeat;
+}
+.block-3 .object .image-3 {
+	background: url("../img/block-3/img-3.png") 0 0/ 100%  no-repeat;
+}
+.block-3 .object .image-4 {
+	background: url("../img/block-3/img-4.jpg") 0 0/ 100%  no-repeat;
+}
+.block-3 .object .image-5 {
+	background: url("../img/block-3/img-5.png") 0 0/ 100%  no-repeat;
+}
+.block-3 .object .image-6 {
+	background: url("../img/block-3/img-6.png") 0 0/ 100%  no-repeat;
+}
+.block-3 .object .title{
+color: #37393F;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.27;
+text-align: left;
+margin-bottom: 10px;
+}
+.block-3 .object .date {
+background: url("../img/block-3/svg.svg") 0 center / 22px no-repeat;
+
+padding-left: 26px;
+
+color: #7D7D7D;
+text-align: left;
+font-family: Inter;
+font-size: 14px;
+line-height: 1.46;
+}
+/*---------------------------block-4--------------------------------*/
+.block-4 {
+	min-width: 1280px;
+	padding: 100px 20px;
+	margin: 0 auto;
+
+	background-color: #fff;
+}
+.block-4 .title {
+background: url("../img/block-4/decoratin.svg") 0 0 / 6px no-repeat;
+padding-left: 21px;
+margin-bottom: 30px;
+min-height: 28px;
+
+color: #3C4242;
+font-family: "CoreSansC", sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 1.20;
+letter-spacing: 0.56px;
+}
+.block-4 .block-text {
+	padding-left: 21px;
+	margin-bottom: 20px;
+}
+.block-4 .subtitle {
+margin-bottom: 25px;
+color: #807D7E;
+font-family: "CoreSansC", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.68;
+letter-spacing: 0.4px;
+}
+.block-4 .text p{
+color: #807D7E;
+font-family: 'Causten', sans-serif;
+font-size: 20px;
+line-height: 1.68;
+letter-spacing: 0.4px;
+
+margin-bottom: 20px;
+}
+
+.block-4 .text span{
+color: #807D7E;
+font-family: 'Causten', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 33.5px;
+letter-spacing: 0.4px;
+}
+.block-4 .button {
+color: #807D7E;
+font-family: "CoreSansC", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.68;
+letter-spacing: 0.4px;
+}
+/*---------------------------block-5--------------------------------*/
+.block-5 {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 0 75px;
+	font-size: 0;
+	padding-top: 183px;
+	padding-bottom: 170px;
+	background: url("../img/block-5/left.png") 0 center / 50% 100% no-repeat,url("../img/block-5/right.png") right center / 50% 100% no-repeat;
+}
+.block-5 .title {
+color: #FFF;
+font-family: "CoreSansC", sans-serif;
+font-size: 34px;
+font-weight: 700;
+line-height: 1.47;
+letter-spacing: 0.208px;
+margin-bottom: 30px;
+max-width: 466px;
+}
+.block-5 .text {
+color: #FFF;
+font-family: 'Causten', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1px;
+margin-bottom: 50px;
+max-width: 450px;
+}
+.block-5 .button {
+display: inline-block;
+width: 168px;
+height: 46px;
+padding: 12px 0;
+text-align: center;
+background-color: #fff;
+border-radius: 8px;
+
+color: #3C4242;
+font-family: 'Causten', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: normal;
+}
+
+
+footer {
+	margin: 50px 0;
+	text-align: center;
+}
+footer a{
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: rgb(83, 83, 83);
+
+	font-family: 'Causten', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+
+	padding: 35px 0;
+}
