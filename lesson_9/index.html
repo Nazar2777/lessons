@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 9</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="conteiner">
+				<img src="img/WhiteCollar.svg" alt=":(" class="logo">
+				<div class="menu">
+					<a id="header-menu" href="#list" class="button">Menu</a>
+					<ul id="list" class="list">
+						<li class="item">
+							<a href="index.html" class="small-button active">Практика</a>
+						</li>
+						<li class="item">
+							<a href="game.html" class="small-button">Гра</a>
+						</li>
+						<li class="item">
+							<a href="layouts.html" class="small-button">Блоки з макету</a>
+						</li>
+					</ul>
+				</div>
+				<!--------------Просто кнопка------------------>
+				<a href="#" class="big-button">Get start</a>
+			</div>
+		</header>
+		<main>
+			<div class="conteiner">
+				<div class="block block-1">
+					<h2 class="title">Псевдокласи</h2>
+					<div class="pseudo-class">
+						<h3 class="subtitle"><span>:hover</span>-псевдоелемент який спрацьовує при наведенні.</h3>
+						<div class="example">
+							<div  class="element hover-1">Наводь</div>
+							<div class="element hover-2">Наводь</div>
+							<div class="element hover-3">Наводь</div>
+						</div>
+					</div>
+					<div class="pseudo-class">
+						<h3 class="subtitle"><span>:active</span>- звернення до елемента у стані "при натиснутій клавіші миші".</h3>
+						<div class="example">
+							<div class="element active-1">Тисни</div>
+							<div class="element active-2">Тисни</div>
+							<div  class="element active-3">Тисни</div>
+						</div>
+					</div>
+					<div class="pseudo-class">
+						<h3 class="subtitle"><span>:visited</span>- звернення до елемента у стані "відвіданого посилання" обмежена кількість властивостей".</h3>
+						<div class="example">
+							<a id="visited-1" href="#visited-1"class="element visited-1">Тисни</a>
+						</div>
+					</div>
+					<div class="pseudo-class">
+						<h3 class="subtitle"><span>:focus</span>-звернення до елементу у стані "фокусу".</h3>
+						<div class="example">
+							<a id="focus-1" href="#focus-1"class="element focus-1">Тисни</a>
+							<a id="focus-2" href="#focus-2"class="element focus-2">Тисни</a>
+						</div>
+					</div>
+					<div class="pseudo-class">
+						<h3 class="subtitle"><span>:target</span>-звернення до елемента у стані "ефекту від посилання з іншого об'єкту"(Завдяки цьому елементу зроблени меню в хедері).</h3>
+						<div class="example">
+							<a href="#header-menu"class="element target-1">Силка</a>
+						</div>
+					</div>
+					<div class="pseudo-class">
+						<h3 class="subtitle"><span>:first-child</span>-звернення до першого елементу в коді.</h3>
+						<h3 class="subtitle"><span>:first-of-type</span>-звернення до першого вказаного об'єкту в коді (простими словами звернення відбувається до конкретного типу, а нашому випадку це перший тег “р” навіть якщо перед ним є інші елементи)</h3>
+						<div class="example example-first">
+							<div class="element ">Перший дочірній елемент</div>
+							<p class="element ">Перщий елемент типу (p)</p>
+							<div class="element ">Просто елемент</div>
+						</div>
+					</div>
+					<div class="pseudo-class">
+						<h3 class="subtitle"><span>:last-child</span>-звернення до останнього елементу в коді.</h3>
+						<h3 class="subtitle"><span>:last-of-type</span>- звернення до останнього вказаного об'єкту в коді.</h3>
+						<div class="example example-last">
+							<div class="element ">Перший дочірній елемент</div>
+							<p class="element ">Перщий елемент типу (p)</p>
+							<div class="element ">Просто елемент</div>
+							<p class="element ">Останній елемент типу (p)</p>
+							<div class="element ">Останній дочірній елемент</div>
+						</div>
+					</div>
+					<div class="pseudo-class">
+						<h3 class="subtitle"><span>:nth-child()</span>- звернення до конкретного елементу в коді.</h3>
+						<div class="example-nth">
+							<div class="element ">Елемент-1</div>
+							<div class="element ">Елемент-2</div>
+							<div class="element ">Елемент-3</div>
+							<div class="element ">Елемент-4</div>
+							<div class="element ">Елемент-5</div>
+							<div class="element ">Елемент-6</div>
+							<div class="element ">Елемент-7</div>
+						</div>
+					</div>
+				</div>
+				<div class="block block-2">
+					<h2 class="title">Псевдоелементи</h2>
+					<div class="pseudo-element">
+						<h3 class="subtitle"><span>::before{}</span>-перед елементом.</h3>
+						<div class="example-1">
+							<div class="element ">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
+							<div class="element ">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+							<div class="element ">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+						</div>
+					</div>
+					<div class="pseudo-element">
+						<h3 class="subtitle"><span>::after{}</span>- після елементу.</h3>
+						<div class="example-2">
+							<div class="element ">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
+							<div class="element ">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+							<div class="element ">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</body>
+</html>
