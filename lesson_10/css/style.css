@@ -1,0 +1,129 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body{
+	background-color: rgb(0, 0, 0);
+	min-height: 100%;
+}
+
+.conteiner{
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/*==================Header===================*/
+.header {
+	padding: 30px 0;
+	border-bottom: 2px solid rgb(20, 20, 20);
+	font-size: 0;
+}
+.header .conteiner{
+	padding-left: 35%;
+}
+.header-button {
+	display: inline-block;
+
+	color: rgb(255, 255, 255);
+	font-family: 'Inter', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+
+	margin-right: 30px;
+}
+.header-button:hover{
+	text-shadow: 0 0 15px wheat;
+}
+.header-button:active{
+	letter-spacing: 4px;
+	margin-right: 14px;/*Щоб при натисканні меню не зміщувальсь(30px-(4px*4 Букви)=14, !!!не сваріть!!! розумію що "костиль"*/
+}
+.header-menu {
+	display: none;
+	font-size: 0;
+}
+.header-menu:target{
+	display: inline-block;
+}
+.menu-item {
+	display: inline-block;
+}
+.menu-item:not(:last-child){
+	margin-right: 20px;
+}
+
+.item-button {
+	color: rgb(255, 255, 255);
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+.item-button:hover{
+	text-shadow: 0 6px 14px rgb(255, 255, 255);
+}
+/*------------------------------*/
+main .conteiner{
+	padding: 50px 0;
+	text-align: center;
+}
+.title {
+	display: inline-block;
+	padding: 20px 50px;
+	border-radius: 10px;
+	border: 2px dotted #222;
+
+	color: rgb(255, 255, 255);
+	font-family: 'Inter', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+
+	margin-bottom: 30px;
+}
+
+
+.block {
+	margin-bottom: 50px;
+}
+
+.icons {
+	padding: 20px 30px;
+	border-radius: 10px;
+	border: 2px dotted #222;
+}
+.icon{
+	vertical-align: middle;
+}
+.icon:not(:last-child){
+	margin-right: 20px;
+}
+
+.logo-icons {
+	padding: 20px 30px;
+	border-radius: 10px;
+	border: 5px dotted rgb(255, 0, 0);
+	background-color: white;
+}
+.logo {
+	vertical-align: middle;
+}
+.logo:not(:last-child){
+	margin-right: 20px;
+}
+
+.img {
+	padding: 20px 30px;
+	border-radius: 10px;
+	border: 2px dotted #222;
+}
+.img img{
+	vertical-align: middle;
+	max-width: 100%;
+	width: 350px;
+}
