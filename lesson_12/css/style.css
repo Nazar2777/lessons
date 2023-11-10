@@ -1,0 +1,268 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+}
+[class*="__container"]{
+	max-width: 1250px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/*-------Header------*/
+.header {
+	background-color: rgb(214, 214, 214);
+	padding: 15px;
+}
+.header--fix {
+	position: sticky;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+.menu {
+	text-align: center;
+	font-size: 0;
+}
+.menu__item {
+	display: inline-block;
+	position: relative;
+
+	margin-right: 20px;
+}
+.menu__item:not(:last-child){
+	margin-right: 20px;
+}
+.menu__link {
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+
+	border: 2px solid rgb(100, 100, 100);
+	background-color: rgb(255, 255, 255);
+
+	display: inline-block;
+	padding: 10px;
+}
+.menu__item:hover .menu__link {
+	background-color: rgb(99, 99, 99);
+	color: white;
+}
+.menu__item:hover .sub-menu{
+	visibility: visible;
+}
+.sub-menu {
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	padding-top: 5px;
+	width: 160px;
+}
+.sub-menu__item {
+	position: relative;
+	background-color: rgb(155, 155, 155);
+}
+.sub-menu__item:not(:last-child){
+	border-bottom: 1px solid #000;
+}
+.sub-menu__item:hover .sub-menu__link{
+	background-color: rgb(99, 99, 99);
+	color: white;
+}
+.sub-menu__link {
+	width: 100%;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	display: inline-block;
+	padding: 15px;
+}
+.sub-menu__item:hover .third-level-menu{
+	visibility: visible;
+}
+.third-level-menu {
+	visibility: hidden;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 100px;
+}
+.third-level-menu__item {
+	background-color: rgb(155, 155, 155);
+	border: 1px solid #000;
+	border-bottom: none;
+}
+.third-level-menu__item:last-child{
+	border-bottom: 1px solid #000;
+}
+.third-level-menu__item:hover{
+	background-color: rgb(99, 99, 99);
+	color: white;
+}
+.third-level-menu__link {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	display: inline-block;
+	padding: 10px;
+}
+
+/*-----------Page--------*/
+.page__container > *:not(:last-child){
+	margin-bottom: 50px;
+}
+
+.page {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background: url('../img/main/sea3.webp') 0 0/ 100% no-repeat fixed;
+	min-height: 2000px;
+}
+.practice {
+	height: 1000px;
+	font-size: 0;
+}
+.practice__block{
+	font-family: 'Popins', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+
+	background-color: rgba(87, 255, 45, 0.699);
+	border: 1px solid #000;
+	border-radius: 10px;
+
+	display: inline-block;
+	padding: 40px 70px;
+	vertical-align: top;
+}
+.practice__block:not(:last-child){
+	margin-right: 30px;
+}
+.practice__block--1{
+	position: sticky;
+	top: 90px;
+	margin-top: 300px;
+}
+.practice__block--2{
+	position: sticky;
+	top: 192px;
+	margin-top: 150px;
+}
+.practice__block--3{
+	position: sticky;
+	top: 294px;
+	margin-top: 600px;
+}
+.practice__block--4{
+	position: sticky;
+	top: 396px;
+	margin-top: 500px;
+}
+.practice__block--5{
+	position: sticky;
+	top: 498px;
+	margin-top: 800px;
+}
+
+/*-----------------grid------------*/
+.grid {
+	padding: 20px 0;
+}
+.grid__row {
+	font-size: 0;
+}
+.grid__row:not(:last-child){
+	margin-bottom: 31px;
+}
+.grid__card:not(:last-child){
+	margin-right: 31px;
+}
+.card{
+	position: relative;
+	display: inline-block;
+	max-width: 386px;
+}
+.card__img img{
+max-width: 100%;
+}
+.card::before{
+	visibility: hidden;
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(107, 119, 229, 0.70);
+}
+.card:hover{
+	box-shadow: 0 0 50px 5px #FFF;
+}
+.card:hover::before{
+	visibility: visible;
+}
+.card:hover .socials{
+	visibility: visible;
+}
+
+.socials {
+	visibility: hidden;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 241px;
+	left: 0;
+}
+.socials__item{
+	display: inline-block;
+}
+.socials__item:not(:last-child){
+	margin-right: 13px;
+}
+.socials__link {
+	display: inline-block;
+	border-radius: 50%;
+}
+.socials__link img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.socials__link:hover{
+	box-shadow: 0 0 7px 3px #FFF;
+}
+
+.card__content {
+background: #FFF;
+
+width: 88.4%;
+padding: 24px 0;
+
+position: absolute;
+left: 23px;
+bottom: 23px;
+}
+
+.card__name {
+color: #37393F;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 25px;
+font-weight: 600;
+line-height: normal;
+}
+.card__profession {
+color: #7D7D7D;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 18px;
+line-height: 1.35;
+}
