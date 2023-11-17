@@ -838,7 +838,6 @@ background-color: #fff;
 	border-radius: 0 0 10% 0;
 	border-left: 50px solid rgba(0, 0, 0, 0.999);
 	border-top :87.5px solid transparent;
-	transform: rotate();
 }
 .door__2 .window-1{
 	z-index: 3;
@@ -851,7 +850,6 @@ background-color: #fff;
 	background-color: rgba(0, 0, 0, 0.952);
 	border-radius:10px 5px 0 0;
 	border: 3px solid #000;
-	transform: rotate();
 }
 .door__2 > div:nth-child(7){
 	z-index: 4;
