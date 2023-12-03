@@ -78,7 +78,7 @@ letter-spacing: 0.44px;
 	row-gap: 28px;
 }
 .body-info__item {
-	flex: 1 1 424px;
+	flex: 0 1 424px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -268,7 +268,7 @@ background: #8A33FD;
 	row-gap: 28px;
 }
 .body-check__item {
-	flex: 1 1 380px;
+	flex: 0 1 400px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -545,7 +545,7 @@ line-height: 1.21;
 	column-gap: 35px;
 }
 .body-request__item {
-	flex: 1 1 590px;
+	flex: 0 1 590px;
 }
 .body-request__inpnt {
 min-width: 100%;
