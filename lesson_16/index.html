@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<title>Lesson 16</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="page">
+				<div class="page__info info">
+					<div class="info__container">
+						<div class="info__titles">
+							<h2 class="info__title title">My Info</h2>
+							<h3 class="info__subtitle subtitle">Add Address</h3>
+						</div>
+						<form action="https://jsonplaceholder.typicode.com/posts"  method="post" class="info__form form-info">
+							<div class="form-info__body body-info">
+								<div class="body-info__item">
+									<label for="first-name" class="body-info__label">First Name*</label>
+									<input id="first-name" type="text" name="first-name" placeholder="First Name" required class="body-info__inpnt">
+								</div>
+								<div class="body-info__item">
+									<label for="last-name" class="body-info__label">Last Name*</label>
+									<input id="last-name" type="text" name="last-name" placeholder="Last Name"  class="body-info__inpnt">
+								</div>
+								<div class="body-info__item">
+									<label for="country" class="body-info__label">Country / Region*</label>
+									<input id="country" type="text" name="country" placeholder="Country / Region" class="body-info__inpnt">
+								</div>
+								<div class="body-info__item">
+									<label for="company-name" class="body-info__label">Company Name</label>
+									<input id="company-name" type="text" name="company-name" placeholder="Company (optional)" class="body-info__inpnt">
+								</div>
+								<div class="body-info__item">
+									<label for="address" class="body-info__label">Street Address*</label>
+									<input id="address" type="text" name="address" placeholder="House number and street name"  class="body-info__inpnt">
+								</div>
+								<div class="body-info__item">
+									<label for="optional" class="body-info__label">Apt, suite, unit</label>
+									<input id="optional" type="text" name="optional" placeholder="apartment, suite, unit, etc. (optional)"  class="body-info__inpnt">
+								</div>
+								<div class="body-info__item">
+									<label for="city" class="body-info__label">City*</label>
+									<input id="city" type="text" name="city" placeholder="Town / City"  class="body-info__inpnt">
+								</div>
+								<div class="body-info__item">
+									<label for="state" class="body-info__label">State*</label>
+									<select id="state" name="state" class="body-info__select">
+										<option selected class="body-info__item-select--selected">State</option>
+										<option  value="gb" class="body-info__item-select">United Kingdom</option>
+										<option value="us" class="body-info__item-select">USA</option>
+										<option value="ua" class="body-info__item-select">Ukraine</option>
+									</select>
+								</div>
+								<div class="body-info__item">
+									<label for="phone" class="body-info__label">Phone*</label>
+									<input id="phone" type="tel" name="phone" placeholder="Phone" class="body-info__inpnt">
+								</div>
+								<div class="body-info__item">
+									<label for="mail" class="body-info__label">Postal Code*</label>
+									<input id="mail" type="email" name="mail" placeholder="Postal Code"  class="body-info__inpnt">
+								</div>
+								<div class="body-info__item--textarea">
+									<label for="instruction" class="body-info__label">Delivery Instruction</label>
+									<textarea placeholder="Delivery Instruction" name="instruction" id="instruction" class="body-info__textarea"></textarea>
+								</div>
+								<div class="checkbox">
+									<input id="check-1" type="checkbox" name="shipping-address" class="checkbox__input">
+									<label for="check-1" class="checkbox__label">Set as default shipping address</label>
+									<input id="check-2" type="checkbox" name="billing-address" class="checkbox__input"/>
+									<label for="check-2" class="checkbox__label">Set as default billing address</label>
+								</div>
+							</div>
+							<div class="form-info__buttons buttons">
+								<button type="submit" class="button button--submit">Save</button>
+								<button type="reset" class="button button--reset">Cancel</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="page__check check">
+					<div class="check__container">
+						<div class="check__titles">
+							<h2 class="check__title title title--decor">Check Out</h2>
+							<h3 class="check__subtitle subtitle">Billing Details</h3>
+						</div>
+						<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="check__form form-check">
+							<div class="form-check__body body-check">
+								<div class="body-check__item">
+									<label for="check-fs-name" class="body-check__label">First Name*</label>
+									<input id="check-fs-name" type="text" name="first-mame" placeholder="First Name" required class="body-check__inpnt">
+								</div>
+								<div class="body-check__item">
+									<label for="check-ls-name" class="body-check__label">Last Name*</label>
+									<input id="check-ls-name" type="text" name="last-name" placeholder="Last Name"  class="body-check__inpnt">
+								</div>
+								<div class="body-check__item">
+									<label for="check-country" class="body-check__label">Country / Region*</label>
+									<input id="check-country" type="text" name="country-region" placeholder="Country / Region"  class="body-check__inpnt">
+								</div>
+								<div class="body-check__item">
+									<label for="check-company" class="body-check__label">Company Name</label>
+									<input id="check-company" type="text" name="company-name" placeholder="Company (optional)"  class="body-check__inpnt">
+								</div>
+								<div class="body-check__item">
+									<label for="check-address" class="body-check__label">Street Address*</label>
+									<input id="check-address" type="text" name="street-address" placeholder="House number and street name"  class="body-check__inpnt">
+								</div>
+								<div class="body-check__item">
+									<label for="check-apt" class="body-check__label">Apt, suite, unit</label>
+									<input id="check-apt" type="text" name="apt" placeholder="apartment, suite, unit, etc. (optional)"  class="body-check__inpnt">
+								</div>
+								<div class="body-check__item body-check__item--small">
+									<label for="check-city" class="body-check__label">City*</label>
+									<input id="check-city" type="text" name="city" placeholder="Town / City"  class="body-check__inpnt">
+								</div>
+								<div class="body-check__item body-check__item--small">
+									<label for="check-state" class="body-check__label">State*</label>
+									<select id="check-state" name="state" class="body-check__select">
+										<option selected class="body-check__item-select--selected">State</option>
+										<option  value="gb" class="body-check__item-select">United Kingdom</option>
+										<option value="us" class="body-check__item-select">USA</option>
+										<option value="ua" class="body-check__item-select">Ukraine</option>
+									</select>
+								</div>
+								<div class="body-check__item body-check__item--small">
+									<label for="check-mail" class="body-check__label">Postal Code*</label>
+									<input id="check-mail" type="email" name="email" placeholder="Postal Code"  class="body-check__inpnt">
+								</div>
+								<div class="body-check__item">
+									<label for="check-phone" class="body-check__label">Phone*</label>
+									<input id="check-phone" type="tel" name="phone" placeholder="Phone"  class="body-check__inpnt">
+								</div>
+							</div>
+							<div class="form-check__buttons buttons">
+								<button type="submit" class="form-check__button button button--submit">Continue to delivery</button>
+								<div class="checkbox">
+									<input id="check-3" type="checkbox" name="save-my-information" class="checkbox__input">
+									<label for="check-3" class="checkbox__label">Save my information for a faster checkout</label>
+								</div>
+							</div>
+						</form>
+						<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="check__form-2 form-check-2">
+							<div class="form-check-2__content">
+								<div class="form-check-2__part">
+									<div class="form-check-2__titles">
+										<div class="form-check-2__subtitle subtitle">Shipping Address</div>
+										<div class="form-check-2__text">
+											<p>Select the address that matches your card or payment method.</p>
+										</div>
+									</div>
+									<div class="form-check-2__same-form">
+										<div class="form-check-2__radio">
+											<input id="radio-1" type="radio" name="radio-1" class="form-check-2__input-radio">
+											<label for="radio-1" class="form-check-2__lable-radio">Save my information for a faster checkout</label>
+										</div>
+										<div class="form-check-2__radio">
+											<input id="radio-2" type="radio" name="radio-1" class="form-check-2__input-radio">
+											<label for="radio-2" class="form-check-2__lable-radio">Use a different shipping address</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-check-2__part">
+									<div class="form-check-2__titles">
+										<div class="form-check-2__subtitle subtitle">Shipping Address</div>
+									</div>
+									<div class="form-check-2__same-form">
+										<h4 class="form-check-2__date">Arrives by Monday, June 7</h4>
+										<div class="form-check-2__charge">
+											<div class="form-check-2__many-line">
+												<h4 class="form-check-2__date">Delivery Charges</h4>
+												<h5 class="form-check-2__mach">$5.00</h5>
+											</div>
+											<div class="form-check-2__text">
+												<p>Additional fess may apply</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-check-2__part">
+									<div class="form-check-2__titles">
+										<div class="form-check-2__subtitle subtitle">Payment Method</div>
+										<div class="form-check-2__text">
+											<p>All transactions are secure and encrypted.</p>
+										</div>
+									</div>
+									<div class="form-check-2__same-form">
+										<div class="form-check-2__radio">
+											<input id="radio-3" type="radio" name="radio-2" class="form-check-2__input-radio form-check-2__input-radio--active">
+											<label for="radio-3" class="form-check-2__lable-radio">Credit Card </label>
+											<div class="form-check-2__additional-form additional-form">
+												<div class="additional-form__card">
+													<input id="radio-6" type="radio" name="radio-3" class="additional-form__input-radio">
+													<label for="radio-6" class="additional-form__lable-radio"><img src="img/main/Frame 440.svg" alt=":("></label>
+													<input id="radio-7" type="radio" name="radio-3" class="additional-form__input-radio">
+													<label for="radio-7" class="additional-form__lable-radio"><img src="img/main/Frame 441.svg" alt=":("></label>
+													<input id="radio-8" type="radio" name="radio-3" class="additional-form__input-radio">
+													<label for="radio-8" class="additional-form__lable-radio"><img src="img/main/Frame 442.svg" alt=":("></label>
+													<input id="radio-9" type="radio" name="radio-3" class="additional-form__input-radio">
+													<label for="radio-9" class="additional-form__lable-radio"><img src="img/main/Frame 443.svg" alt=":("></label>
+												</div>
+												<div class="additional-form__same-form">
+													<input type="tel" name="card-number" placeholder="Card number" required class="additional-form__inpnt">
+													<input type="text" name="name-card" placeholder="Name of card" required class="additional-form__inpnt">
+													<input type="date" name="date" placeholder="Expiration date (MM/YY)" required class="additional-form__inpnt">
+													<input type="password" name="code" placeholder="Security Code" required class="additional-form__inpnt">
+												</div>
+											</div>
+										</div>
+										<div class="form-check-2__radio">
+											<input id="radio-4" type="radio" name="radio-2" class="form-check-2__input-radio">
+											<label for="radio-4" class="form-check-2__lable-radio">Cash on delivery </label>
+										</div>
+										<div class="form-check-2__radio">
+											<input id="radio-5" type="radio" name="radio-2" class="form-check-2__input-radio">
+											<label for="radio-5" class="form-check-2__lable-radio">Paypol</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-check-2__buttons buttons">
+								<button type="submit" class="form-check__button button button--submit">Pay Now</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="page__request request">
+					<div class="request__container">
+						<div class="request__titles">
+							<h5 class="request__subtitle">Contact Us</h5>
+							<h2 class="request__title">Request A Call Back !</h2>
+						</div>
+						<form action="https://jsonplaceholder.typicode.com/posts"  method="post" class="request__form form-request">
+							<div class="form-request__body body-request">
+								<div class="body-request__item">
+									<input type="text" name="your-name" placeholder="Your Name" required class="body-request__inpnt">
+								</div>
+								<div class="body-request__item">
+									<input type="text" name="email-address" placeholder="Email Address" required class="body-request__inpnt">
+								</div>
+								<div class="body-request__item">
+									<input type="text" name="phone-number" placeholder="Phone Number" required class="body-request__inpnt">
+								</div>
+								<div class="body-request__item">
+									<input type="text" name="subject" placeholder="Subject" required class="body-request__inpnt">
+								</div>
+								<div class="body-request__item body-request__item--textarea">
+									<textarea name="message" placeholder="Message..." class="body-request__textarea"></textarea>
+								</div>
+							</div>
+							<button type="submit" class="form-request__button">Submit</button>
+						</form>
+					</div>
+				</div>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
