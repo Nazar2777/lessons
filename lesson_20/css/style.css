@@ -347,6 +347,9 @@ textarea {
   .text {
     font-size: 14px;
   }
+  .sub-title {
+    font-size: 16px;
+  }
   .main__content {
     padding: 50px 0;
   }
