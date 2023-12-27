@@ -339,6 +339,9 @@ textarea {
   .main__button {
     font-size: 25px;
   }
+  .main .title {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .title {
