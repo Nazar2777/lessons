@@ -1,0 +1,42 @@
+// Функції
+@import "_functions.scss";
+.sub-title {
+	position: relative;
+	color: #37393f;
+	font-family: "Inter", sans-serif;
+	font-size: toRem(18);
+	font-weight: 500;
+	padding-left: toRem(18);
+	&::after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		margin-top: toRem(-6);
+		left: 0;
+		width: toRem(12);
+		height: toRem(12);
+		background: #40ddb6;
+	}
+}
+.title {
+	color: #37393f;
+	font-family: "Poppins", sans-serif;
+	font-size: toRem(40);
+	font-weight: 700;
+	line-height: 121%;
+}
+.text {
+	color: #7d7d7d;
+	font-family: "Inter", sans-serif;
+	font-size: toRem(18);
+	font-weight: 400;
+	line-height: 146.187%;
+}
+.button {
+	background: #6b77e5;
+	padding: toRem(21) toRem(27);
+	color: #fff;
+	font-family: "Inter", sans-serif;
+	font-size: toRem(18);
+	font-weight: 600;
+}
