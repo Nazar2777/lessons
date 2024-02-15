@@ -1,22 +1,6 @@
 // Строгий режим
 "use strict"
 // код
-/*
-let User1 = 'Roma'
-let Age = 20
-console.log(User1 + Age)
-*/
-/*
-const UserAge = 22
-console.log(UserAge)
-UserAge = UserAge + 1
-console.log(UserAge)
-*/
-/*
-let Age = 22
-console.log(typeof Age)
-*/
-
 
 // Задача №1
 // Що потрапить в консоль ?
@@ -55,18 +39,18 @@ console.log(typeof Age)
 // Викличте функцію передаючі різні значення, у тому числі не передаючи зовсім.
 // Функція не має повертати NaN, Infinite або помилку
 
-let Calc
-function calcNumber(a, b) {
-	Calc = a / b
-	if (a && b) {
-		console.log(`Результат ділення: ${Calc}`)
-	} else {
-		console.log(`Перевірте правильність вводу`)
-	}
-}
-calcNumber(9, 3)
-calcNumber()
-calcNumber(1, 0)
+// let Calc
+// function calcNumber(a, b) {
+// 	Calc = a / b
+// 	if (a && b) {
+// 		console.log(`Результат ділення: ${Calc}`)
+// 	} else {
+// 		console.log(`Перевірте правильність вводу`)
+// 	}
+// }
+// calcNumber(9, 3)
+// calcNumber()
+// calcNumber(1, 0)
 
 
 // Задача №5
